@@ -3,16 +3,17 @@ title: ''
 layout: home
 feature_image: "https://picsum.photos/1300/400?image=989"
 feature_text: |
-  ## Welcome to SP's Fantasy
+  ## Sibelius Peng
 ---
-## My Program
+## About
+Hi, I am Sibelius (Lechuan) Peng, a (continuing) fourth-year undergraduate student. Welcome to my home page!
 
-- Institution - University of Waterloo
-  - Career - Undergraduate
-    - Program - Mathematics HCO
-      - Honours Co-op - Computer Science Honours Co-op
-      - Honours Co-op - Combinatorics & Optimization Honours Co-op
-      - Minor - Pure Mathematics Minor
-      - Minor - Applied Mathematics Minor
-      - Minor - Statistics Minor
-      - Minor - Music Minor
+I am passionate about Music, Math (various branches, including CS) and badminton.
+
+## My Program
+- Computer Science  
+- Combinatorics & Optimization
+- Pure Mathematics Minor
+- Applied Mathematics Minor
+- *Statistics Minor*
+- Music Minor

@@ -15,5 +15,5 @@ I am passionate about Music, Math (various branches, including CS) and badminton
 - Combinatorics & Optimization
 - Pure Mathematics Minor
 - Applied Mathematics Minor
-- *Statistics Minor*
 - Music Minor
+- *Statistics Minor*

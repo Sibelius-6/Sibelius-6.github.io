@@ -45,10 +45,12 @@ paginate_path: blog/page:num
 navigation_header:
 - title: Home
   url: /
-- title: Blog
+- title: Blogs
   url: https://blog.sibeliusp.com/
 - title: Notes
   url: https://notes.sibeliusp.com/
+- title: Music
+  url: https://www.sibeliusp.com/old/mus/
 - title: Projects
   url: https://www.sibeliusp.com/old/projects/
 - title: Research

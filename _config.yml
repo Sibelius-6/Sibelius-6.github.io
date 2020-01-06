@@ -54,7 +54,7 @@ navigation_header:
 - title: Projects
   url: https://www.sibeliusp.com/old/projects/
 - title: Research
-  url: https://www.sibeliusp.com/old/research.html
+  url: /research/ #https://www.sibeliusp.com/old/research.html
 - title: To-do
   url: /todo/
 - title: Contact

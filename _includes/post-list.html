@@ -1,15 +1,39 @@
 {% if page.layout == "home" %}
     <h4>Quick Links</h4>
-    <ul>
-        <li><a href="https://odyssey.uwaterloo.ca/teaching/schedule" target="_blank">Exam Seating</a></li>
-        <li><a href="https://cs.uwaterloo.ca/cscf/teaching/schedule/expert" target="_blank">Class Schedules</a></li>
-        <li><a href="https://odyssey.uwaterloo.ca/ofcourse/app/" target="_blank">Course Offerings</a></li>
-        <li><a href="https://cs.uwaterloo.ca/current/courses/course_descriptions/">CS Courses</a> </li>
-        <li><a href="https://uwaterloo.ca/music/courses" target="_blank">Music Courses</a> </li>
-        <li><a href="https://uwaterloo.ca/psychology/current-undergraduate-students/psychology-courses/psychology-course-availability" target="_blank">Psych Courses
-        </a> </li>
-        <li><a href="https://uwaterloo.ca/philosophy/undergraduate/current-course-offerings" target="_blank">Phil Courses
-        </a> </li>
-        <li><a href="https://podor.org/">Podor</a></li>
+    <ul style='line-height:150%'>
+        {% if page.title == "Research" %}
+           <li><a href="https://urf.rcs.uwaterloo.ca/" target="_blank">CS full-time</a></li>
+           <li> <a href="https://cs.uwaterloo.ca/current-undergraduate-students/research-opportunities/undergraduate-research-assistantship-ura-program"
+                  target="_blank">CS part-time
+               </a>
+           </li>
+           <li><a href="https://uwaterloo.ca/engineering/current-undergraduate-students/ura-and-usra-supervisor-lists"
+                   target="_blank">Eng. full-time</a>
+           <li><a href="https://uwaterloo.ca/engineering/ura" target="_blank">Eng. part-time</a></li>
+           <li><a href="https://uwaterloo.ca/combinatorics-and-optimization/undergraduates/undergraduate-research"
+                  target="_blank">C&amp;O full-time</a>
+           </li>
+           <li><a href="https://uwaterloo.ca/applied-mathematics/current-undergraduates/undergraduate-summer-research">AMATH full-time</a>
+           </li>
+           <li>
+               <a href="https://uwaterloo.ca/statistics-and-actuarial-science/research/research-opportunities#undergraduate"
+                  target="_blank">SAS</a>
+           </li>
+           <li>
+               <a href="https://uwaterloo.ca/pure-mathematics/undergraduate-studies/pure-math-undergraduate-research-opportunities"
+                  target="_blank">PMATH full-time</a>
+           </li>
+        {% else %}
+            <li><a href="https://odyssey.uwaterloo.ca/teaching/schedule" target="_blank">Exam Seating</a></li>
+            <li><a href="https://cs.uwaterloo.ca/cscf/teaching/schedule/expert" target="_blank">Class Schedules</a></li>
+            <li><a href="https://odyssey.uwaterloo.ca/ofcourse/app/" target="_blank">Course Offerings</a></li>
+            <li><a href="https://cs.uwaterloo.ca/current/courses/course_descriptions/">CS Courses</a> </li>
+            <li><a href="https://uwaterloo.ca/music/courses" target="_blank">Music Courses</a> </li>
+            <li><a href="https://uwaterloo.ca/psychology/current-undergraduate-students/psychology-courses/psychology-course-availability" target="_blank">Psych Courses
+            </a> </li>
+            <li><a href="https://uwaterloo.ca/philosophy/undergraduate/current-course-offerings" target="_blank">Phil Courses
+            </a> </li>
+            <li><a href="https://podor.org/">Podor</a></li>
+        {% endif %}
     </ul>
 {% endif %}

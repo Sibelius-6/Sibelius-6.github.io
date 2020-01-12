@@ -8,6 +8,7 @@ feature_text: |
 ## documentary
 - 从<中国>到中国
 - 奶奶最懂得
+- 寻找手艺
 
 ## courses
 - econ 212

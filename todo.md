@@ -46,6 +46,12 @@ More advanced
 - A Modern Introduction to Probability and Statistics (A Modern Introduction to Probability and Statistics)
 - Real Analysis (Elias M. Stein / Rami Shakarchi)
 - Probability and Random Processes (Geoffrey R. Grimmett / David R. Stirzaker)
+
+### Computational Physics
+- Computational Physics (Koonin & Meredith)
+- Computational Methods for Physicists (Simon Širca and Martin Horvat)
+- Computational Physics (Karl H. Hoffmann and Michael Schreiber)
+
 ### blogging
 
 - [the book on writing](https://www.amazon.com/Book-Writing-Ultimate-Guide-Well/dp/0989236706/)

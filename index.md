@@ -17,3 +17,9 @@ I am passionate about Music, Math (various branches, including CS) and badminton
 - Applied Mathematics Minor
 - Music Minor
 - *Statistics Minor*
+
+## Other
+- [Lecture notes](https://notes.sibeliusp.com/)
+- [Blogs](https://blog.sibeliusp.com/)
+- [Old home page](old/)
+- [Blogspot](https://sibeliuspeng.blogspot.com/)

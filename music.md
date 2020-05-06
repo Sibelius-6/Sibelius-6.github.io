@@ -11,7 +11,7 @@ feature_text: |
 This "a minor fugue" is a piece that I wrote in 2017 :)
 
 <video width="480" height="270" controls>
-        <source src="/old/a_minor_fugue.mp4" type="video/mp4">
+        <source src="/old/mus/a_minor_fugue.mp4" type="video/mp4">
         Your browser does not support the video element.
 </video>
 
@@ -19,6 +19,6 @@ This "a minor fugue" is a piece that I wrote in 2017 :)
 This piece was composed during exam period in Fall 2017. Now (Winter 2020) I revised it a bit after learning music theory 1 & 2.
 
 <audio controls>
-  <source src="ohsusanna-variation.mp3" type="audio/mpeg">
+  <source src="/ohsusanna-variation.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>

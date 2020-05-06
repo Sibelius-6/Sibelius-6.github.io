@@ -17,3 +17,5 @@ Throughout this research, we applied several machine learning techniques on dete
 
 #### [Unknotting Number & Colourings of Knots](https://www.sibeliusp.com/old/research/knots/)
 Currently, we have two posters for both of them, which has first 250 knots coloured displayed. Moreover, we used some multi-thread programs to find colourability classifications for big knots. Results can be found in the poster.
+
+See other posters in [caribou contests](https://cariboutests.com/posters.php).

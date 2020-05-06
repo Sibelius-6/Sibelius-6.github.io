@@ -20,6 +20,6 @@ I am passionate about Music, Math (various branches, including CS) and badminton
 
 ## Other
 - [Lecture notes](https://notes.sibeliusp.com/)
-- [Blogs](https://blog.sibeliusp.com/)
+- [Blogs & ideas](https://blog.sibeliusp.com/)
 - [Old home page](old/)
-- [Blogspot](https://sibeliuspeng.blogspot.com/)
+- [Blogspot...](https://sibeliuspeng.blogspot.com/)

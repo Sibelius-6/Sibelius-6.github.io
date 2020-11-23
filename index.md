@@ -6,14 +6,14 @@ feature_text: |
   ## Sibelius Peng
 ---
 ## About
-Hi, I am Sibelius (Lechuan) Peng, a (continuing) fourth-year undergraduate student. Welcome to my home page!
+Hi, I am Sibelius Peng, a (continuing) fourth-year undergraduate student. Welcome to my home page!
 
 I am passionate about Music, Math (various branches, including CS) and badminton.
 
 ## My Program
 - Computer Science  
 - Combinatorics & Optimization
-- Pure Mathematics Minor
+- <s>Pure Mathematics Minor</s>
 - Applied Mathematics Minor
 - Music Minor
 - <s>Statistics Minor</s>

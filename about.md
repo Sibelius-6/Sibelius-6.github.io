@@ -3,6 +3,11 @@ layout: description
 title: About
 permalink: /about/
 ---
-Hi, I am Sibelius Peng.
+Hi, I am Sibelius Peng. 
 
-Learning notes, review notes, book review and so on...
+To be updated soon.
+
+## Misc
+- [blog](https://b.sibp.ro)
+- [zhihu bookmark](/zhihu)
+- and so on.

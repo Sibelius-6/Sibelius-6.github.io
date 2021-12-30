@@ -1,5 +1,5 @@
 ---
 layout: home
-home_text: Computer Scientist, Mathematician, and Musician
+home_text: Computer Science, Math, and Music
 title: Sibelius Peng
 ---

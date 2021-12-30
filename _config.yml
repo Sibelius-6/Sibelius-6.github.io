@@ -1,95 +1,156 @@
-# Set theme
-remote_theme: daviddarnes/alembic
+# resume_url: "Resume.pdf"
+author_name: "Sibelius Peng"
+url: sibeliusp.com
 
-# File excludes
-exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
-
-gems:
-  - jekyll-last-modified-at
-
-# Set plugins
 plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-default-layout
-- jekyll-feed
-- jemoji
-- jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+  - jekyll-minifier
+  - jekyll-assets
+  - sprockets
+  - autoprefixer-rails
+  - jemoji
 
-# Site settings
-url: ''
-baseurl: ''
-title: 'Sibelius Peng'
-description: 'Home'
-permalink: pretty
-logo: "/logo.jpg"
-email: "plc1101@163.com"
-author: Sibelius Peng
+############################################################
+# Site configuration for the Jekyll 3 Pagination Gem
+# The values here represent the defaults if nothing is set
+pagination:
+  # Site-wide kill switch, disabled here it doesn't run at all
+  enabled: true
 
-contact:
-  email:      plc1101@163.com
-  github:     https://github.com/Sibelius-6
-  linkedin:   https://www.linkedin.com/in/sibelius-peng-595b27163/
+  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
+  debug: true
 
-# Pagination
-paginate: 5
-paginate_path: blog/page:num
+  # The default document collection to paginate if nothing is specified ('posts' is default)
+  collection: "posts"
 
-# Header nav
-navigation_header:
-- title: Home
-  url: /
-- title: Music
-  url: /music/
-- title: Projects
-  url: https://www.sibeliusp.com/old/projects/
-- title: Research
-  url: /research/ #https://www.sibeliusp.com/old/research.html
-- title: To-do
-  url: /todo/
-- title: Contact
-  url: /contact/
+  # How many objects per paginated page, used to be `paginate` (default: 0, means all)
+  per_page: 10
 
+  # The permalink structure for the paginated pages (this can be any level deep)
+  permalink: "/blog/:num/" # Pages are index.html inside this folder (default)
+  #permalink: '/page/:num.html' # Pages are simple html files
+  #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
 
-# Footer nav
-navigation_footer:
-- title: Back to home
-  url: "./#top"
+  # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
+  title: ":title - page :num"
 
+  # Limit how many pagenated pages to create (default: 0, means all)
+  limit: 10
 
-defaults:
-- scope:
-    path: ""
-    type: tag
-  values:
-    layout: tag
+  # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
+  sort_field: "date"
 
-# Collections
-collections:
-  posts:
-    title: Posts
-    output: true
-    description: "My thoughts and ideas"
-  tag:
-    output: true
+  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
+  sort_reverse: true
 
+  # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
+  category: "posts"
 
+  # Optional, the default tag to use, omit to disable
+  tag: ""
 
-# Site favicons
-favicons:
-  16: '/favicon.png'
-  32: '/favicon.png'
-  48: '/favicon.png'
-  64: '/favicon.png'
-  96: '/favicon.png'
-  120: '/favicon.png'
-  144: '/favicon.png'
-  180: '/favicon.png'
-  512: '/favicon.png'
-  1024: '/favicon.png'
+  # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts,
+  # in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code )
+  locale: ""
+
+  # Optional,omit or set both before and after to zero to disable.
+  # Controls how the pagination trail for the paginated pages look like.
+  trail:
+    before: 2
+    after: 2
+
+  # Optional, the default file extension for generated pages (e.g html, json, xml).
+  # Internally this is set to html by default
+  extension: html
+
+  # Optional, the default name of the index file for generated pages (e.g. 'index.html')
+  # Without file extension
+  indexpage: "index"
+
+############################################################
+
+############################################################
+# Site Configuration data for Jekyll Minifier
+jekyll-minifier:
+  preserve_php: true # Default: false
+  remove_spaces_inside_tags: true # Default: true
+  remove_multi_spaces: true # Default: true
+  remove_comments: true # Default: true
+  remove_intertag_spaces: true # Default: false
+  remove_quotes: false # Default: false
+  compress_css: true # Default: true
+  compress_javascript: true # Default: true
+  compress_json: true # Default: true
+  simple_doctype: false # Default: false
+  remove_script_attributes: false # Default: false
+  remove_style_attributes: false # Default: false
+  remove_link_attributes: false # Default: false
+  remove_form_attributes: false # Default: false
+  remove_input_attributes: false # Default: false
+  remove_javascript_protocol: false # Default: false
+  remove_http_protocol: false # Default: false
+  remove_https_protocol: false # Default: false
+  preserve_line_breaks: false # Default: false
+  simple_boolean_attributes: false # Default: false
+  compress_js_templates: false # Default: false
+  preserve_patterns: # Default: (empty)
+  uglifier_args: # Default: (empty)
+
+############################################################
+
+# _config.yml
+assets:
+  source_maps: true
+  destination: "/assets"
+  compression: false
+  gzip: false
+  defaults:
+    integrity:
+      { css, img, js }: false
+  caching:
+    enabled: true
+    path: ".jekyll-cache/assets"
+    type: file
+  # --
+  # Assets you wish to always have compiled.
+  #   This can also be combined with raw_precompile which
+  #   copies assets without running through the pipeline
+  #   making them ultra fast.
+  # --
+  precompile: []
+  raw_precompile: []
+  #
+  # --
+  # baseurl: whether or not to append site.baseurl
+  # destination: the folder you store them in on the CDN.
+  # url: the CDN url (fqdn, or w/ identifier).
+  # --
+  cdn:
+    baseurl: false
+    destination: false
+    url: null
+  # --
+  # See lib/jekyll/assets/config.rb
+  #   for a list of defaults
+  # --
+  sources:
+    - _assets/custom
+  plugins:
+    css: { autoprefixer: {} }
+    img: { optim: {} }
+
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
+
+# google_analytics: "UA_123456789_1"
+
+# Disqus Comments
+# disqus:
+#   # Leave shortname blank to disable comments site-wide.
+#   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+#   shortname: my_disqus_shortname

@@ -1,25 +1,5 @@
 ---
-title: ''
 layout: home
-feature_image: "https://picsum.photos/1300/400?image=989"
-feature_text: |
-  ## Sibelius Peng
+home_text: Hey, I think you stole my dog - John Wick
+title: Sibelius Peng
 ---
-## About
-Hi, I am Sibelius Peng, a (continuing) fourth-year undergraduate student. Welcome to my home page!
-
-I am passionate about Music, Math (various branches, including CS) and badminton.
-
-## My Program
-- Computer Science  
-- Combinatorics & Optimization
-- <s>Pure Mathematics Minor</s>
-- Applied Mathematics Minor
-- Music Minor
-- <s>Statistics Minor</s>
-
-## Other
-- [Lecture notes](https://notes.sibeliusp.com/)
-- [Blogs & ideas](https://blog.sibeliusp.com/)
-- [Old home page](old/)
-- [Blogspot...](https://sibeliuspeng.blogspot.com/)

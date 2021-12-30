@@ -1,9 +1,8 @@
 ---
-layout: home
+layout: description
 title: About
+permalink: /about/
 ---
+
 ## About
 Learning notes, review notes, book review and so on...
-
-## Send me a message
-{% include site-form.html %}

@@ -1,14 +1,27 @@
 ---
-layout: default
+layout: description
 ---
-<main class="main container">
-<article class="content  typeset">
-<h1>{{ page.title }}</h1>
-{% include post-meta.html %}
-<div style="padding-bottom: 3%">
-{{ content }}
+<h2>{{ page.title }}</h2>
+<small>{{ post.date | date_to_string }}</small>
+{{content}}
+
+<div class="post-footer">
+<div class="post-categories">
+  Categories :
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+      <a href="{{site.url}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
 </div>
-{% include post-comments.html %}
-</article>
-{% include site-aside.html %}
-</main>
+<div>{% include share_buttons.html %}</div>
+
+</div>
+{% if site.disqus.shortname and page.comments %}
+  <hr>
+  {% include disqus_comments.html %}
+{% endif %}

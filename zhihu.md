@@ -9,7 +9,6 @@ pagination:
 ## Other bookmarks
 - [大学必看](https://www.zhihu.com/collection/41342066)
 - [情商社交](https://www.zhihu.com/collection/21487842)
-- [relationship.sex](https://www.zhihu.com/collection/19976885)
 - [留着慢慢看](https://www.zhihu.com/collection/119363342)
 - [各种推荐（好网站／好电影／好书）](https://www.zhihu.com/collection/37975069)
 - [科普（各个方面）](https://www.zhihu.com/collection/42728421)

@@ -25,4 +25,5 @@ Hi, I am Sibelius Peng. I recently graduated (Winter 2022) from University of Wa
 ## Misc
 - [blog](https://b.sibp.ro)
 - [zhihu bookmark](/zhihu)
+- [LaTeX Tricks](https://latex.sibeliusp.com/)
 - and so on.

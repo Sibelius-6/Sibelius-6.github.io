@@ -27,3 +27,6 @@ This piece is the final project for music theory 3. From [wikipedia](https://en.
 > The term romance has a centuries-long history. Applied to narrative ballads in Spain, it came to be used by the 18th century for simple lyrical pieces not only for voice, but also for instruments alone. The Oxford Dictionary of Music states that "generally it implies a specially personal or tender quality".
 
 Enjoy the music [here](https://youtu.be/mXJ2DVEJyAA).
+
+## A capella Arrangements
+I have done several arrangements and singing in aca. I have posted them on [bilibili](https://www.bilibili.com/audio/am33665729).
